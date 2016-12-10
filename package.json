@@ -1,0 +1,23 @@
+{
+  "name": "hackathon-orca",
+  "version": "1.0.0",
+  "description": "late gamers ftw!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevcomedia/hackathon-orca.git"
+  },
+  "author": "Late Gamers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevcomedia/hackathon-orca/issues"
+  },
+  "homepage": "https://github.com/kevcomedia/hackathon-orca#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
+}
