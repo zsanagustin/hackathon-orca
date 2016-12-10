@@ -1,28 +1,18 @@
-body.login {
-    background-color: #f2f3ae;
+body{
+  background-color: #1f337d;
 }
 
-div.login-box {
-    margin: auto;
-    margin-top: 3em;
-    width: 30%;
-    background-color: #fc9e4f;
-    border-radius: 1em;
-    border: solid 3px #020122;
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
-div.login-logo {
-    font-size: 35px;
-    text-align: center;
-    margin-bottom: 25px;
-    font-weight: 300;
+.Absolute-Center.is-Responsive {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
 }
 
-input[type=text], input[type=password] {
-    width: 80%;
-    padding: 12px 20px;
-    margin-bottom: 2em;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
