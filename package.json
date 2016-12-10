@@ -4,6 +4,8 @@
   "description": "late gamers ftw!",
   "main": "server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "static-dev": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
   }
 }
