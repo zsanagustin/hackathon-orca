@@ -19,5 +19,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "mongoose": "^4.7.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
   }
 }
