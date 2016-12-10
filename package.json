@@ -4,6 +4,7 @@
   "description": "late gamers ftw!",
   "main": "server.js",
   "scripts": {
+    "start": "node src/server.js",
     "static-dev": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
